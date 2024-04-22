@@ -1,0 +1,59 @@
+
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    header{
+      background-color: brown;
+      border: 5px solid teal;
+    }
+    nav{
+      background-color: gray;
+      border: 5px solid purple;
+    }
+
+    ul{
+      text-align: center;
+    }
+
+    li{
+      border: 10px solid black;
+      width: 100px;
+      display: inline-block;
+      line-height: 3em;
+    }
+
+    a{
+      color: white;
+      text-decoration: none;
+      display: block;
+      border: 1px solid orange;
+    }
+    div.container{
+     border: 5px solid #ff0000;
+     width: 90%;
+    }
+
+    .hero img{
+      width: 100%;
+    }
+ 
+    div.left, div.middle, div.right{
+      border: 5px solid #00ff00;
+      width: 30%;
+    }
+
+    aside img{
+      width: 100%;
+    }
+
+    aside{
+      display: flex;
+      justify-content: space-around;
+    }
+
+    footer{
+      border: 5px solid #0000ff;
+    }
